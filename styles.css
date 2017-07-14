@@ -60,7 +60,8 @@ header img{
 }
 
 .banner {
-	background-color: #eee;
+	color: #333;
+	background-color: #000;
 	height: 100%;
 	max-height: 600px;
 	text-align: center;
