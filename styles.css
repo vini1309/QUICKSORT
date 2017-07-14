@@ -1,0 +1,82 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	height: 60px;
+	width: 100%;
+	background-color: #f8ba4c;
+
+}
+
+header img{
+	height: 60px;
+	width: auto;
+	padding: 5px 1%;
+
+}
+
+
+
+
+.description {
+    color: #333;
+    background-color: #FFF;
+}
+
+.menu{
+	float: right;
+	margin: 0;
+	width: 60%;
+}
+.menu li{
+	display: inline-block;
+	margin: 20px 10px;
+	border: 0;
+}
+
+.menu ul{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	margin: 0 3%;
+	float: right;	
+}
+
+.menu a{
+	text-decoration: none;
+	color: #000;
+}
+
+.banner {
+	background-color: #eee;
+	height: 100%;
+	max-height: 600px;
+	text-align: center;
+}
+
+.banner h1{
+	padding: 20% 0;
+	color: #333;
+}
+
+.team {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+}
+
+.team img{
+	height: 150px;
+}
